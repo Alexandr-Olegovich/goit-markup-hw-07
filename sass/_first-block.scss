@@ -1,0 +1,51 @@
+.section-head {
+  padding: 200px 0;
+  background-color: #2f303a;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/bacground.jpg);
+  max-width: 1600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title {
+  width: 696px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  margin-left: auto;
+  margin-right: auto;
+}
+/*BUTTON__________________________________________BUTTON________________________________________*/
+.press-it {
+  padding: 10px 32px;
+  border-radius: 4px;
+  border: transparent;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.press-it:hover,
+.press-it:focus {
+  color: var(--grey-color);
+  background-color: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}

@@ -1,0 +1,59 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: roboto, sans-serif;
+  color: var(--black-color);
+}
+/*container__________________________________COMMON-ELEMENTS__________________________________________container*/
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.section {
+  padding: 94px 0;
+}
+.work,
+.team {
+  display: flex;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+.work-title,   /*H-2_______________________________H-2___________________________________H-2*/
+.comand-title,
+.client-title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--black-color);
+}
+.features-title,   /*H-3_________________________H-3__________________________________H-3*/
+.team-title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;}
