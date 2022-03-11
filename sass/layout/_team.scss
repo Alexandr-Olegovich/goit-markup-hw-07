@@ -11,10 +11,6 @@
   letter-spacing: 0.03em;
   color: var(--grey-color);
 }
-
-.features-title {
-  text-transform: uppercase;
-}
 .card /*team-card-conteiner*/ {
   background-color: var(--white-color);
   text-align: center;
@@ -34,16 +30,15 @@
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      background-color: #2196f3;
+    }
 }
 
-.team-link:hover,
-.team-link:focus,
-.join-link:hover,
-.join-link:focus {
-  background-color: #2196f3;
-}
+
 .team-link:hover .team-contacts-icon {
   fill: var(--white-color);
 }

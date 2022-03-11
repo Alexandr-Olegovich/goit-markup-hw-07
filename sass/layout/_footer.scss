@@ -82,18 +82,6 @@
 .footer-icon {
   fill: var(--white-color);
 }
-.join-btn {
-  
-  justify-content: center;
-  align-items: center;
-  width: 200px;
-  height: 50px;
-  border-radius: 4px;
-  display: inline-flex;
-  background-color: var(--blue-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  cursor: pointer;
-}
 .footer-button-text {
   margin-right: 10px;
   font-size: 16px;
@@ -105,12 +93,18 @@
   color: var(--white-color);
 }
 .footer-email-text {
-  display: block;
-  font-style: normal;
-  font-size: 14px;
+  display: block;  
+  font-size: 14px; 
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
 }
+.join-link {
+  background: rgba(255, 255, 255, 0.1);
+}
+.join-item {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 
