@@ -1,64 +1,51 @@
 .header-container,
-.navigation-list-second, 
-.link-head,
-.navigation {
+.contact, 
+.contact__link,
+.navigation,
+.nav {
   align-items: center;
   display: flex;
 }
 .header {
+  background-color: var(--white-color);
   border-bottom: 1px solid #ececec;
 }
-.navigation-list-first {
-  margin-left: 93px;
-  display: flex;
+.nav__position {
+  margin-left: 93px; 
 }
-.navigation-list-second {
+.contact__position {
   margin-left: auto;
   align-items: center;
   display: flex;
 }
-.nav-element:not(:first-child) {
+.nav__item, .contact__item:not(:first-child) {
   margin-left: 50px;
 }
 /*ICONS__________________________________HEADER-ICONS_____________________________________ICONS*/
-.header-icon-envelope {
+.contact__icon--envelope {
   fill: var(--grey-color);
   margin-right: 10px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  .link-head:hover &,
-  .link-head:focus & {
+  .contact__item:hover &,
+  .contact__item:focus & {
   fill: var(--blue-color);
 }
 }
-.header-icon-phone {
+.contact__icon--phone {
   fill: var(--grey-color);
   margin-right: 10px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  .link-head:hover &,
-  .link-head:focus & {
+  .contact__item:hover &,
+  .contact__item:focus & {
   fill: var(--blue-color);
-}
-}
-
-.header {
-  background-color: var(--white-color);
-}
-.navigation-one {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: calc(16 / 14);
-  letter-spacing: 0.02em;
-  color: var(--black-color);
-}
-.link-head-one,
-.link-head,
-.link-foot,
-.link-foot-color
- {&:hover, &:focus{
+}}
+.nav__link,
+.contact__link
+ {&:hover, &focus{
   color: var(--blue-color);
 }}
-.link-head,
-.link-head-one {
+.contact__link,
+.nav__link {
   display: block;
   padding: 32px 0;
   font-weight: 500;
@@ -67,10 +54,9 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--grey-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
 }
-.link-head-one {   
+.nav__link--black {   
   color: var(--black-color);  
 }
 .current {

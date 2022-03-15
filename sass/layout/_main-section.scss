@@ -1,5 +1,4 @@
-.section-head {
-  padding: 200px 0;
+.main-section {  
   background-color: #2f303a;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/bacground.jpg);
@@ -7,5 +6,9 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin-left: auto;
-  margin-right: auto;}
+  }
+  .main-section__position {
+    padding: 200px 0;
+    margin-left: auto;
+    margin-right: auto;
+  }

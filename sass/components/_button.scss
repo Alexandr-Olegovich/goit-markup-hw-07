@@ -1,5 +1,5 @@
 /*____________________________________section-head__button________________________________*/
-.main-button {
+.main-btn {
   padding: 10px 32px;
   border-radius: 4px;
   border: transparent;
@@ -25,7 +25,7 @@
 }
 }
 /*____________________________________*Portfolio-button_________________________________________*/
-.portfolio-button {
+.button-list__btn {
   padding: 6px 22px;
   border-radius: 4px;
   border: transparent;
@@ -46,7 +46,7 @@
 }
 }
 /*___________________________________modal-button____________________________________________*/
-.modal-close-btn {
+.modal__btn--close {
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -80,7 +80,7 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }}
 /*________________________________Footer-button________________________________*/
-.join-btn {  
+.email-btn {  
   justify-content: center;
   align-items: center;
   width: 200px;

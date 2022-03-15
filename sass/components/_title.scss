@@ -8,7 +8,7 @@
   margin-right: auto;
 }
 .work-title,   /*H-2_______________________________H-2___________________________________H-2*/
-.comand-title,
+.team-head-title,
 .client-title {
   margin-bottom: 50px;
   font-weight: 700;
@@ -19,7 +19,7 @@
   color: var(--black-color);
 }
 .features-title,   /*H-3_________________________H-3__________________________________H-3*/
-.team-title {
+.card__title {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 16px;
@@ -29,3 +29,31 @@
 .features-title {
   text-transform: uppercase;
 }
+.join__title {
+  margin-bottom: 20px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.modal__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: calc(23 / 20);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 12px;
+}
+.card-box__title /* portfolio h2*/ {
+  margin-bottom: 4px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+

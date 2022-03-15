@@ -1,3 +1,4 @@
+@import "./utils/mixins";
 @import "./base/reset";
 @import "./utils/variables";
 @import "./base/common";
@@ -5,7 +6,7 @@
 @import "./components/button";
 @import "./layout/header";
 @import "./components/logo";
-@import "./layout/section-head";
+@import "./layout/main-section";
 @import "./layout/portfolio";
 @import "./layout/features";
 @import "./layout/work";
@@ -14,4 +15,3 @@
 @import "./layout/footer";
 @import "./components/modal";
 @import "./utils/hidden";
-@import "./utils/mixins";

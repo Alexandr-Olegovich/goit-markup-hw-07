@@ -1,11 +1,11 @@
-.work-item:not(:first-child),
+.work__item:not(:first-child),
 .team-item:not(:first-child) {
   margin-left: 30px;
 }
 .work-section {
   padding-top: 0px;
 }
-.work-item {
+.work__item {
   position: relative;
 }
 .work-box {
@@ -18,7 +18,7 @@
   width: 100%;
   background-color: rgba(47, 48, 58, 0.8);
 }
-.work-text {
+.work-box__text {
   font-size: 14px;
   line-height: calc(16 / 14);
   text-align: center;

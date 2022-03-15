@@ -1,5 +1,4 @@
-.logo-head,
-.logo-foot {
+.logo {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -7,6 +6,9 @@
   letter-spacing: 0.03em;
   color: var(--blue-color);
 }
-.logo-element {
+.logo--dark {
   color: var(--black-color);
+}
+.logo--light {
+  color: var(--white-color);
 }
