@@ -1,8 +1,9 @@
-.features,
-.features-conteiner {
+.features
+ {
   display: flex;
 }
-.features-conteiner {
+.features__conteiner {
+   display: flex;
   width: 270px;
   display: flex;
   justify-content: center;
@@ -14,13 +15,14 @@
   border-radius: 4px;
 }
 /*icons__________________icons___________________icons*/
-.features__item:not(:last-child) {
-  margin-right: 30px;
-}
+
 .features__item {
   width: 270px;
+  &:not(:last-child) {
+  margin-right: 30px;
 }
-.features-text {
+}
+.features__text {
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;

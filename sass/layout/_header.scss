@@ -10,7 +10,7 @@
   background-color: var(--white-color);
   border-bottom: 1px solid #ececec;
 }
-.nav__position {
+.nav--margin {
   margin-left: 93px; 
 }
 .contact__position {
@@ -22,7 +22,7 @@
   margin-left: 50px;
 }
 /*ICONS__________________________________HEADER-ICONS_____________________________________ICONS*/
-.contact__icon--envelope {
+.contact__icon {
   fill: var(--grey-color);
   margin-right: 10px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -31,14 +31,6 @@
   fill: var(--blue-color);
 }
 }
-.contact__icon--phone {
-  fill: var(--grey-color);
-  margin-right: 10px;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  .contact__item:hover &,
-  .contact__item:focus & {
-  fill: var(--blue-color);
-}}
 .nav__link,
 .contact__link
  {&:hover, &focus{
@@ -46,20 +38,20 @@
 }}
 .contact__link,
 .nav__link {
+  color: var(--black-color);
   display: block;
   padding: 32px 0;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
-  color: var(--grey-color);
+  text-decoration: none;  
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
 }
-.nav__link--black {   
-  color: var(--black-color);  
+.contact__link{
+  color: var(--grey-color);
 }
-.current {
+.nav__link--current {
   position: relative;
   color: #2196f3;
 &::after {

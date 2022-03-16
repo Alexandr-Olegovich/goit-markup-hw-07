@@ -4,6 +4,9 @@
 .clients__item {
   width: 170px;
   height: 92px;
+  &:nth-child(n + 2) {
+  margin-left: 30px;
+}
 }
 .clients__link {
   border: 1px solid #afb1b8;
@@ -23,7 +26,4 @@
 }
 .clients__icon {
   fill: currentColor;
-}
-.clients__item:nth-child(n + 2) {
-  margin-left: 30px;
 }
